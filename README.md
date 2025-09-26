@@ -35,4 +35,25 @@ Here I will show all the steps to build this project and I also explain every co
 - choose the resource group that I have created before
   <img width="991" height="799" alt="image" src="https://github.com/user-attachments/assets/eaae9447-d7c1-46aa-89e8-da6a33c91ff7" />
 - then review and create
+
+## Step 5: create 2 linked services for GitHub (datasource) and ADLS Gen2 (sink)
+- once ADF is created. launch it.
+  <img width="1748" height="889" alt="image" src="https://github.com/user-attachments/assets/d1ba9ba1-7a70-4be2-8458-cabd3423a579" />
+- go to Manage and create linked services
+- search for HTTP because I ingest data from Github
+  <img width="1897" height="873" alt="image" src="https://github.com/user-attachments/assets/696057fc-13d9-4704-8177-e5570b8a5ab9" />
+- notice that base URL is not the full URL. Full URL = base URL + relative URL
+  <img width="767" height="762" alt="image" src="https://github.com/user-attachments/assets/181fb76d-0d85-4230-a3bd-e1c87126a585" />
+- I just created a linked service for Github. Now I will do the similar thing with ADLS
+  <img width="795" height="816" alt="image" src="https://github.com/user-attachments/assets/3519c186-5db9-49ca-903f-0980d3960dd3" />
+- select Azure Datalake Storage Gen2
+- don't forget to test connection, then create it.
+  <img width="787" height="811" alt="image" src="https://github.com/user-attachments/assets/52807ed4-5fb8-491a-9f2b-dda4cd1761a8" />
+- done so now you should see something like this
+  <img width="1454" height="510" alt="image" src="https://github.com/user-attachments/assets/d336712f-21f8-4253-9448-e0488bc6ceaf" />
+
+## Step 6: create 2 databases for source and sink
+- go to Author -> create pipeline -> search for the 'copy' activity
+  <img width="1906" height="885" alt="image" src="https://github.com/user-attachments/assets/5305d3df-bd78-4be3-80e1-9240940869bc" />
+
   
