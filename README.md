@@ -128,9 +128,13 @@ Here I will show all the steps to build this project and I also explain every co
   <img width="1063" height="837" alt="image" src="https://github.com/user-attachments/assets/e1695b06-b853-44c9-8232-b69bd9ad4c76" />
 - once it is created. save all its credentials into a notepad
   <img width="1747" height="777" alt="image" src="https://github.com/user-attachments/assets/90ff7cdb-aa7b-4a1c-8309-ad700ae6e7d9" />
+- go to credentials and secrets -> create client
+  <img width="1414" height="830" alt="image" src="https://github.com/user-attachments/assets/7d6eaa74-80c0-47c1-968f-7ba1cc21fbec" />
+- go to ADLS -> access control IAM -> add role assignment -> search for 'Storage Blob Data Contributor'
+  <img width="1894" height="828" alt="image" src="https://github.com/user-attachments/assets/35c00f0b-7ec6-4a47-ba79-f90a2d8d6b09" />
+- go to members -> search and select the app I registerd before. then review and create
+  <img width="1910" height="822" alt="image" src="https://github.com/user-attachments/assets/8fb61c93-3467-494e-bdd1-eb3fee54a539" />
 
-
-  
 
 
   
