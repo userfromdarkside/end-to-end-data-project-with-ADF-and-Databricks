@@ -1,6 +1,6 @@
 # end-to-end-data-project-with-ADF-and-Databricks
 This project implements a modern data pipeline using Azure Data Factory and Power BI to enable efficient data ingestion, transformation, and visualization. Data is sourced from HTTP endpoints and GitHub repositories, then processed through Azure Data Factory and stored in a structured, layered architecture.
-the datasets are really well-known and you guys can find it in Kaggle here is the link: https://www.kaggle.com/datasets/ukveteran/adventure-works 
+the datasets are really well-known and you guys can find it on Kaggle here is the link: https://www.kaggle.com/datasets/ukveteran/adventure-works 
 the datasets have many tables with foreign keys so you guys can do join queries.
 <img width="1048" height="675" alt="image" src="https://github.com/user-attachments/assets/6e7a0241-3902-44e6-bf95-685c85bd0f03" />
 
