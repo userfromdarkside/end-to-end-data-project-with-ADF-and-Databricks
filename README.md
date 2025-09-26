@@ -52,7 +52,7 @@ Here I will show all the steps to build this project and I also explain every co
 - done so now you should see something like this
   <img width="1454" height="510" alt="image" src="https://github.com/user-attachments/assets/d336712f-21f8-4253-9448-e0488bc6ceaf" />
 
-## Step 6: create 2 databases for source and sink
+## Step 6: create 2 datasets for source and sink
 - here I have so many csv files that mean there are many relative URLs and I don't want to repeatly ingest them one by one. so I will create a pipeline which has these activities: lookup, foreach, and copy
 - go to Author -> create a pipeline -> create an activity called copy
   <img width="1457" height="822" alt="image" src="https://github.com/user-attachments/assets/bb419c7b-40fb-4d3d-8fc8-3009c17f4d04" />
