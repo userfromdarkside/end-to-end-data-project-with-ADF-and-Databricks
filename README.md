@@ -11,5 +11,12 @@ Here I will show all the steps to build this project and I also explain every co
   <img width="1357" height="887" alt="image" src="https://github.com/user-attachments/assets/1115ddd5-6bd4-4ac6-b7d9-bac1f9556662" />
 - select the your region (I recommend you select the nearest one)
   <img width="933" height="798" alt="image" src="https://github.com/user-attachments/assets/d3123d21-79bb-43d5-b241-3dd76716482f" />
+- then click review and create
+## Step 2:
+- create a storage account
+  <img width="1243" height="643" alt="image" src="https://github.com/user-attachments/assets/932a2b28-e581-444b-9632-43057cf920a9" />
+- choose ADLS GEN2 for the storage type; and choose 'Locally-redundant storage' because it is the cheapest one for the learning purpose
+  <img width="1059" height="780" alt="image" src="https://github.com/user-attachments/assets/b07c518d-d297-4780-8e3e-0d6a8cb29ed9" />
+
 
 
