@@ -62,8 +62,19 @@ Here I will show all the steps to build this project and I also explain every co
 - select the linked service for github that was created before. then go to advanced -> click open this dataset
  <img width="843" height="816" alt="image" src="https://github.com/user-attachments/assets/44f3fb84-9206-499b-80a6-0af3d46d1b79" />
 
--create a parameter for relative URLs
+- create a parameter for relative URLs
   <img width="1504" height="846" alt="image" src="https://github.com/user-attachments/assets/f2a24f2f-1bd9-49b6-8168-9e1d0937142e" />
+- you should see something like this
+  <img width="818" height="826" alt="image" src="https://github.com/user-attachments/assets/fe4c4762-bbfd-4927-92b3-f2aac13bc0d1" />
+- now do the same thing with sink
+  <img width="830" height="839" alt="image" src="https://github.com/user-attachments/assets/530d96a8-43ee-480f-9f2c-9de8aa8b880f" />
+- create 2 parameters for folder names and file names
+<img width="1416" height="451" alt="image" src="https://github.com/user-attachments/assets/49b0c46b-20d8-4804-aa5d-36f8dc0555d9" />
+- now create an activity called foreach
+  <img width="1013" height="772" alt="image" src="https://github.com/user-attachments/assets/997c16dc-69c8-4f01-8ba2-bf5e629e665f" />
 
+## Step 7: upload the parameters file to ADLS 
+- create a new container and upload the parameters file. it is a json file and you can find it above.
+  <img width="1893" height="832" alt="image" src="https://github.com/user-attachments/assets/215e8e77-0111-4a8a-b91b-318ff9251470" />
 
   
