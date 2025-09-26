@@ -2,7 +2,8 @@
 This project implements a modern data pipeline using Azure Data Factory and Power BI to enable efficient data ingestion, transformation, and visualization. Data is sourced from HTTP endpoints and GitHub repositories, then processed through Azure Data Factory and stored in a structured, layered architecture
 the datasets are really well-known and you guys can find it in Kaggle here is the link: https://www.kaggle.com/datasets/ukveteran/adventure-works 
 the datasets have many tables with foreign keys so you guys can do join queries.
-<img width="1075" height="665" alt="Ảnh chụp màn hình 2025-09-26 121019" src="https://github.com/user-attachments/assets/0a3a1f1f-4bc5-4e2a-88ee-887710a8401f" />
+<img width="1048" height="675" alt="image" src="https://github.com/user-attachments/assets/6e7a0241-3902-44e6-bf95-685c85bd0f03" />
+
 
 
 
@@ -91,6 +92,27 @@ Here I will show all the steps to build this project and I also explain every co
   @activity('Lookup_URLs').output
 - now I am gonna copy and paste the copy activity to inside the foreach activity
   <img width="1472" height="854" alt="image" src="https://github.com/user-attachments/assets/441e3013-ae4c-4006-b1ad-a123d76b3418" />
+- go to activities -> paste the copy activity here then you will see something like this
+  <img width="1796" height="806" alt="image" src="https://github.com/user-attachments/assets/04ddbfbb-c874-45f9-b4c1-c58d831f7dba" />
+- cool now go to source and add dynamic value, make sure you write the same parameter as you have in the json file
+  <img width="1489" height="838" alt="image" src="https://github.com/user-attachments/assets/f6e39026-2cb6-40af-b104-1a1c7f17567e" />
+- do the same thing with sink
+  <img width="1140" height="706" alt="image" src="https://github.com/user-attachments/assets/7b53481c-d6bf-4449-8a89-43988e8d971f" />
+
+## Step 10: amazing, now let's try to run the pipeline
+- click debug to run it
+  <img width="1809" height="889" alt="image" src="https://github.com/user-attachments/assets/54e67cc9-cfe6-4db2-baa3-9b60db2a0eed" />
+- wow, it workds
+  <img width="1467" height="843" alt="image" src="https://github.com/user-attachments/assets/2c0da173-47bd-4478-9868-b97d28c6c642" />
+- go to ADLS, I can see all the data have been loaded to here
+  <img width="1454" height="836" alt="image" src="https://github.com/user-attachments/assets/b11f4d0a-a3af-4690-a0c4-a71d10f44468" />
+
+## Step 11: create Databricks - my favourite part
+- search for Databricks then click create
+  <img width="1819" height="829" alt="image" src="https://github.com/user-attachments/assets/f883205d-ab31-47aa-9d16-e82c453e413f" />
+- choose Premium Pricing tier because this time I want to use role-based access controls ->then review and create
+  <img width="1026" height="841" alt="image" src="https://github.com/user-attachments/assets/ce2910dd-2104-41cc-b214-94349de48ddd" />
+
 
 
 
