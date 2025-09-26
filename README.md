@@ -61,7 +61,8 @@ Here I will show all the steps to build this project and I also explain every co
 - then select csv format because all the data files I have are csv
 - select the linked service for github that was created before. then go to advanced -> click open this dataset
  <img width="843" height="816" alt="image" src="https://github.com/user-attachments/assets/44f3fb84-9206-499b-80a6-0af3d46d1b79" />
-- create a parameter for relative URLs
+
+-create a parameter for relative URLs
   <img width="1504" height="846" alt="image" src="https://github.com/user-attachments/assets/f2a24f2f-1bd9-49b6-8168-9e1d0937142e" />
 
 
