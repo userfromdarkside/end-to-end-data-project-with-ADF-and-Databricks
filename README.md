@@ -53,7 +53,16 @@ Here I will show all the steps to build this project and I also explain every co
   <img width="1454" height="510" alt="image" src="https://github.com/user-attachments/assets/d336712f-21f8-4253-9448-e0488bc6ceaf" />
 
 ## Step 6: create 2 databases for source and sink
-- go to Author -> create pipeline -> search for the 'copy' activity
-  <img width="1906" height="885" alt="image" src="https://github.com/user-attachments/assets/5305d3df-bd78-4be3-80e1-9240940869bc" />
+- here I have so many csv files that mean there are many relative URLs and I don't want to repeatly ingest them one by one. so I will create a pipeline which has these activities: lookup, foreach, and copy
+- go to Author -> create a pipeline -> create an activity called copy
+  <img width="1457" height="822" alt="image" src="https://github.com/user-attachments/assets/bb419c7b-40fb-4d3d-8fc8-3009c17f4d04" />
+- go to source -> create a dataset -> search for http
+  <img width="1574" height="837" alt="image" src="https://github.com/user-attachments/assets/c36aa095-e22d-4cb2-ba5c-f1655bc4d856" />
+- then select csv format because all the data files I have are csv
+- select the linked service for github that was created before. then go to advanced -> click open this dataset
+ <img width="843" height="816" alt="image" src="https://github.com/user-attachments/assets/44f3fb84-9206-499b-80a6-0af3d46d1b79" />
+- create a parameter for relative URLs
+  <img width="1504" height="846" alt="image" src="https://github.com/user-attachments/assets/f2a24f2f-1bd9-49b6-8168-9e1d0937142e" />
+
 
   
