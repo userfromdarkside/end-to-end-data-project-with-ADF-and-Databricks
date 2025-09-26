@@ -135,6 +135,12 @@ Here I will show all the steps to build this project and I also explain every co
 - go to members -> search and select the app I registerd before. then review and create
   <img width="1910" height="822" alt="image" src="https://github.com/user-attachments/assets/8fb61c93-3467-494e-bdd1-eb3fee54a539" />
 
+## Step 14: create a Databricks notebook and connect it to ADLS 
+- name it silver_layer. and then start the compute I have created before
+  <img width="1775" height="884" alt="image" src="https://github.com/user-attachments/assets/58502f4e-7bba-44a8-b6e9-a3a275bb806c" />
+
+## Step 15: now I have the access. let's read data then do some transformations and write them to the silver contair
+- you guys can find the silver_layer notebook above
 
 
   
