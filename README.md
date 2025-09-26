@@ -118,6 +118,19 @@ Here I will show all the steps to build this project and I also explain every co
 - after create Databricks workspace -> launch it -> creat compute
 - databricks UI has been changed abit. I will choose personal compute, untick machine learing (it would unable Photon), and choose Standard_DS3_v2 as I see it is the cheapest one, terminal after 10 minutes to protect my wallet. then create it
   <img width="1910" height="890" alt="image" src="https://github.com/user-attachments/assets/43bec4b5-bf91-451b-b98e-b61c7d361268" />
+- I got error. the compute I chose is not available in Aus East
+<img width="907" height="511" alt="image" src="https://github.com/user-attachments/assets/096a9ab9-811b-4740-98fe-25e6cf428de8" />
+- choose another one. and it is running now
+  <img width="1620" height="295" alt="image" src="https://github.com/user-attachments/assets/82a29ffe-e407-40c5-a8a8-a688fcd31f81" />
+
+## Step 13: give Databricks permission to access ADLS Gen2
+- search for Entra ID -> App registrations -> new registration -> then register
+  <img width="1063" height="837" alt="image" src="https://github.com/user-attachments/assets/e1695b06-b853-44c9-8232-b69bd9ad4c76" />
+- once it is created. save all its credentials into a notepad
+  <img width="1747" height="777" alt="image" src="https://github.com/user-attachments/assets/90ff7cdb-aa7b-4a1c-8309-ad700ae6e7d9" />
+
+
+  
 
 
   
