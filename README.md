@@ -77,4 +77,21 @@ Here I will show all the steps to build this project and I also explain every co
 - create a new container and upload the parameters file. it is a json file and you can find it above.
   <img width="1893" height="832" alt="image" src="https://github.com/user-attachments/assets/215e8e77-0111-4a8a-b91b-318ff9251470" />
 
+## Step 8: create a Lookup activity
+<img width="1431" height="760" alt="image" src="https://github.com/user-attachments/assets/dc976c18-cfb1-434b-9fba-2fc3a8456ab3" />
+- next go to settings -> create a new dataset (choose ADLS Gen 2) -> select format json -> select linked service and point to the path of the json file
+  <img width="1893" height="890" alt="image" src="https://github.com/user-attachments/assets/7decc415-1291-4dbe-9417-243040b19389" />
+- make sure you untick the 'the first row only'
+  <img width="1146" height="276" alt="image" src="https://github.com/user-attachments/assets/82fd5c41-2368-49c1-a714-bff6d48b5946" />
+
+## Step 9: beautiful, so now I am gonna connect these actitivies
+- make sure you choose 'connect on success'
+  <img width="1500" height="835" alt="image" src="https://github.com/user-attachments/assets/b765cadc-7d29-4814-89f3-4afc95daff27" />
+- then go to setting and do like this. don't forget to add '.value' after '@activity('Lookup_URLs').output'
+  @activity('Lookup_URLs').output
+- now I am gonna copy and paste the copy activity to inside the foreach activity
+  <img width="1472" height="854" alt="image" src="https://github.com/user-attachments/assets/441e3013-ae4c-4006-b1ad-a123d76b3418" />
+
+
+
   
