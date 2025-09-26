@@ -113,7 +113,10 @@ Here I will show all the steps to build this project and I also explain every co
 - choose Premium Pricing tier because this time I want to use role-based access controls ->then review and create
   <img width="1026" height="841" alt="image" src="https://github.com/user-attachments/assets/ce2910dd-2104-41cc-b214-94349de48ddd" />
 
-
+## Step 12: create compute 
+- after create Databricks workspace -> launch it -> creat compute
+- databricks UI has been changed abit. I will choose personal compute, untick machine learing (it would unable Photon), and choose Standard_DS3_v2 as I see it is the cheapest one, terminal after 10 minutes to protect my wallet. then create it
+  <img width="1910" height="890" alt="image" src="https://github.com/user-attachments/assets/43bec4b5-bf91-451b-b98e-b61c7d361268" />
 
 
   
