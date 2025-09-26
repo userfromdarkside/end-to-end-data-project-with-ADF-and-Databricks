@@ -13,6 +13,7 @@ Here I will show all the steps to build this project and I also explain every co
 - select the your region (I recommend you select the nearest one)
   <img width="933" height="798" alt="image" src="https://github.com/user-attachments/assets/d3123d21-79bb-43d5-b241-3dd76716482f" />
 - then click review and create
+  
 ## Step 2: create a storage account
   <img width="1243" height="643" alt="image" src="https://github.com/user-attachments/assets/932a2b28-e581-444b-9632-43057cf920a9" />
 - choose ADLS GEN2 for the storage type; and choose 'Locally-redundant storage' because it is the cheapest one for the learning purpose
@@ -20,12 +21,14 @@ Here I will show all the steps to build this project and I also explain every co
 - remember to enable hierarchical namespace
   <img width="1022" height="800" alt="image" src="https://github.com/user-attachments/assets/f6a8788d-b589-4d1e-abb4-2dbf0ce0759d" />
 - then click review and create
-- the reason we create ADLS GEN 2 instead of blob storage because later we need toi create 3 containers for 3 layers bronze, silver, and gold. 
+- the reason we create ADLS GEN 2 instead of blob storage because later we need toi create 3 containers for 3 layers bronze, silver, and gold.
+  
 ## Step 3: create 3 containers
 - go to storage account -> containers
 <img width="1080" height="823" alt="image" src="https://github.com/user-attachments/assets/9124567e-0b16-43eb-8242-e4c591e6d9a5" />
 - create 3 containers like this
   <img width="1726" height="845" alt="image" src="https://github.com/user-attachments/assets/267c7594-911f-48d3-bbad-af38fd30d516" />
+  
 ## Step 4: create Azure Data Factory (ADF)
 <img width="980" height="720" alt="image" src="https://github.com/user-attachments/assets/6eda6e69-b3ed-433a-82eb-8ffca04069f3" />
 - pick data factories (V2)
