@@ -35,19 +35,20 @@
         "p_sink_file" : "Sales_2015.csv"
     },
     {
-        "p_rel_url" : "anshlamba03/Adventure-Works-Data-Engineering-Project/main/Data/AdventureWorks_Sales_2016.csv",
-        "p_sink_folder" : "AdventureWorks_Sales_2016",
-        "p_sink_file" : "AdventureWorks_Sales_2016.cvsv"
+        "p_rel_url" : "userfromdarkside/end-to-end-data-project-with-ADF-and-Databricks/refs/heads/main/AdventureWorks_Sales_2016.csv",
+        "p_sink_folder" : "Sales_2016",
+        "p_sink_file" : "Sales_2016.cvsv"
     },
     {
-        "p_rel_url" : "anshlamba03/Adventure-Works-Data-Engineering-Project/main/Data/AdventureWorks_Sales_2017.csv",
-        "p_sink_folder" : "AdventureWorks_Sales_2017",
-        "p_sink_file" : "AdventureWorks_Sales_2017.csv"
+        "p_rel_url" : "userfromdarkside/end-to-end-data-project-with-ADF-and-Databricks/refs/heads/main/AdventureWorks_Sales_2017.csv",
+        "p_sink_folder" : "Sales_2017",
+        "p_sink_file" : "Sales_2017.csv"
     },
     {
-        "p_rel_url" : "anshlamba03/Adventure-Works-Data-Engineering-Project/main/Data/AdventureWorks_Territories.csv",
-        "p_sink_folder" : "AdventureWorks_Territories",
-        "p_sink_file" : "AdventureWorks_Territories.csv"
+        "p_rel_url" : "userfromdarkside/end-to-end-data-project-with-ADF-and-Databricks/refs/heads/main/AdventureWorks_Territories.csv",
+        "p_sink_folder" : "Territories",
+        "p_sink_file" : "Territories.csv"
     }
 
 ]
+
