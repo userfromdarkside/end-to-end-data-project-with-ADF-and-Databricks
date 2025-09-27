@@ -139,8 +139,11 @@ Here I will show all the steps to build this project and I also explain every co
 - name it silver_layer. and then start the compute I have created before
   <img width="1775" height="884" alt="image" src="https://github.com/user-attachments/assets/58502f4e-7bba-44a8-b6e9-a3a275bb806c" />
 
-## Step 15: now I have the access. let's read data then do some transformations and write them to the silver contair
+## Step 15: now I have the access. let's read data then do some transformations and write them to the silver container
 - you guys can find the silver_layer notebook above
+## step 16: create Azure Synapse for the gold layer
+- recommend to create a new account name and file system name
+  <img width="1200" height="831" alt="image" src="https://github.com/user-attachments/assets/b42a875b-f7ef-40e3-837d-4cea54b0024d" />
+- setup username and password. for other settings, keep them default
+  <img width="1311" height="842" alt="image" src="https://github.com/user-attachments/assets/ad95b95e-a4ff-4481-8d7a-29f8542350bc" />
 
-
-  
