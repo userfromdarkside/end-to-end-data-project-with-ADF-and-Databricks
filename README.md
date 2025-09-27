@@ -157,6 +157,16 @@ Here I will show all the steps to build this project and I also explain every co
   <img width="1644" height="897" alt="image" src="https://github.com/user-attachments/assets/fa2b7c69-6fee-4710-a29d-1969530ba393" />
 - create a SQL script then create a schema and write some queries there. you guys can find the sql script above
 
-#3 Step 18: working with external tables in Synapse
+## Step 18: working with external tables in Synapse
 - I will create another SQL script to work with external tables in both silver and gold containers. you guys can find the script above
   <img width="1589" height="943" alt="image" src="https://github.com/user-attachments/assets/dcd6230a-53df-4996-bae8-f7da2b3a4101" />
+
+- now I have data in the gold container so I will connect to PowerBI and then I can do visualizations there.
+
+## Step 19: final step -- connect to PowerBI
+#### I will use SQL endpoint to connect PowerBI with my data lake
+- first I need the severless sql endpoint ID
+  <img width="1824" height="820" alt="image" src="https://github.com/user-attachments/assets/cbe874c9-4551-4f86-9286-885218fea0f3" />
+- then go to PowerBI Desktop -> get data -> search for Synapse
+<img width="1452" height="953" alt="image" src="https://github.com/user-attachments/assets/535eba8a-033e-4f1d-8670-d10fbab2c4dd" />
+- 
