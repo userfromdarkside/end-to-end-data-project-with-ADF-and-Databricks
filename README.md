@@ -169,4 +169,7 @@ Here I will show all the steps to build this project and I also explain every co
   <img width="1824" height="820" alt="image" src="https://github.com/user-attachments/assets/cbe874c9-4551-4f86-9286-885218fea0f3" />
 - then go to PowerBI Desktop -> get data -> search for Synapse
 <img width="1452" height="953" alt="image" src="https://github.com/user-attachments/assets/535eba8a-033e-4f1d-8670-d10fbab2c4dd" />
-- 
+- then it will ask the credentials, then I just need to write the username and password that I created before for the SQL database
+  <img width="1066" height="619" alt="image" src="https://github.com/user-attachments/assets/4e7e2425-f594-4bd3-8e43-c8c7b1e6407b" />
+
+# that's it
