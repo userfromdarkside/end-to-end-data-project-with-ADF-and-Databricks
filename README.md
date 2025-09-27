@@ -141,9 +141,22 @@ Here I will show all the steps to build this project and I also explain every co
 
 ## Step 15: now I have the access. let's read data then do some transformations and write them to the silver container
 - you guys can find the silver_layer notebook above
-## step 16: create Azure Synapse for the gold layer
+## Step 16: create Azure Synapse for the gold layer
 - recommend to create a new account name and file system name
   <img width="1200" height="831" alt="image" src="https://github.com/user-attachments/assets/b42a875b-f7ef-40e3-837d-4cea54b0024d" />
 - setup username and password. for other settings, keep them default
   <img width="1311" height="842" alt="image" src="https://github.com/user-attachments/assets/ad95b95e-a4ff-4481-8d7a-29f8542350bc" />
+## Step 17: give Synapse permission to ADLS
+- add role
+  <img width="1659" height="837" alt="image" src="https://github.com/user-attachments/assets/4694a5e2-321b-48bf-9510-baf6caf9909f" />
+- add memeber
+  <img width="1593" height="887" alt="image" src="https://github.com/user-attachments/assets/09c39d5a-5de6-448e-939f-89b27aa4e31e" />
+- create a new sql database
+  <img width="1891" height="880" alt="image" src="https://github.com/user-attachments/assets/29345a5a-95c4-499b-9d46-df15412b8824" />
+- add my account to the same role like I just did to Synapse and ADLS
+  <img width="1644" height="897" alt="image" src="https://github.com/user-attachments/assets/fa2b7c69-6fee-4710-a29d-1969530ba393" />
+- create a SQL script then create a schema and write some queries there. you guys can find the sql script above
 
+#3 Step 18: working with external tables in Synapse
+- I will create another SQL script to work with external tables in both silver and gold containers. you guys can find the script above
+  <img width="1589" height="943" alt="image" src="https://github.com/user-attachments/assets/dcd6230a-53df-4996-bae8-f7da2b3a4101" />
